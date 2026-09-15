@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نمونه کارهای طراحی لباس | گروه هنری جاوان</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#121110;
+    --bg-soft:#1b1917;
+    --gold:#c9a13b;
+    --teal:#3e7c78;
+    --text:#f2ede4;
+    --muted:#9a938a;
+    --line:#2c2925;
+  }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Vazirmatn', sans-serif;
+    line-height:1.7;
+  }
+  a{ color:inherit; text-decoration:none; }
+  .wrap{ max-width:1180px; margin:0 auto; padding:0 6vw 60px; }
+
+  header{
+    padding:20px 0;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .logo{ font-weight:700; font-size:1.05rem; }
+  .logo span{ color:var(--gold); }
+  .back-link{ color:var(--muted); font-size:.9rem; border-bottom:1px solid var(--line); padding-bottom:2px; }
+  .back-link:hover{ color:var(--gold); border-color:var(--gold); }
+
+  .page-title{
+    background:var(--bg-soft);
+    border:1px solid var(--line);
+    border-radius:12px;
+    text-align:center;
+    padding:34px 20px;
+    margin-bottom:24px;
+  }
+  .page-title span{ display:block; color:var(--muted); font-size:.95rem; margin-bottom:8px; }
+  .page-title h1{ font-size:1.6rem; font-weight:800; }
+  .page-title h1 em{ font-style:normal; color:var(--gold); }
+
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:14px;
+  }
+  .work-item{
+    position:relative;
+    aspect-ratio:3/4;
+    border-radius:10px;
+    overflow:hidden;
+    background:var(--bg-soft);
+    border:1px solid var(--line);
+    background-size:cover;
+    background-position:center;
+    display:block;
+    transition:border-color .25s, transform .2s;
+  }
+  .work-item:hover{ border-color:var(--gold); transform:translateY(-2px); }
+  .work-item .label{
+    position:absolute; right:10px; bottom:10px; left:10px;
+    font-size:.78rem; color:var(--text);
+    background:rgba(18,17,16,.7);
+    padding:5px 8px; border-radius:4px;
+    opacity:0; transition:opacity .25s;
+  }
+  .work-item:hover .label{ opacity:1; }
+
+  @media (max-width:560px){
+    .grid{ gap:10px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">جاوان<span>.</span></div>
+    <a href="index.html" class="back-link">بازگشت به خانه</a>
+  </header>
+
+  <div class="page-title">
+    <span>نمونه کارهای طراحی لباس و پارچه</span>
+    <h1>طراحی لباس و پارچه</h1>
+  </div>
+
+  <div class="grid">
+    <a href="#" target="_blank" class="work-item" style="background-image:url('lebas-1.jpg')"><span class="label">نمونه کار ۱</span></a>
+    <a href="#" target="_blank" class="work-item" style="background-image:url('lebas-2.jpg')"><span class="label">نمونه کار ۲</span></a>
+    <a href="#" target="_blank" class="work-item" style="background-image:url('lebas-3.jpg')"><span class="label">نمونه کار ۳</span></a>
+    <a href="#" target="_blank" class="work-item" style="background-image:url('lebas-4.jpg')"><span class="label">نمونه کار ۴</span></a>
+    <a href="#" target="_blank" class="work-item" style="background-image:url('lebas-5.jpg')"><span class="label">نمونه کار ۵</span></a>
+    <a href="#" target="_blank" class="work-item" style="background-image:url('lebas-6.jpg')"><span class="label">نمونه کار ۶</span></a>
+  </div>
+
+</div>
+</body>
+</html>
