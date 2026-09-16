@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ارتباط با ما | گروه هنری جاوان</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#121110;
+    --bg-soft:#1b1917;
+    --gold:#c9a13b;
+    --teal:#3e7c78;
+    --text:#f2ede4;
+    --muted:#9a938a;
+    --line:#2c2925;
+  }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Vazirmatn', sans-serif;
+    line-height:1.7;
+  }
+  a{ color:inherit; text-decoration:none; }
+  .wrap{ max-width:1180px; margin:0 auto; padding:0 6vw 60px; }
+
+  header{
+    padding:20px 0;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .logo{ font-weight:700; font-size:1.05rem; }
+  .logo span{ color:var(--gold); }
+  nav{ display:flex; gap:24px; }
+  nav a{ font-size:.92rem; color:var(--muted); }
+  nav a.active{ color:var(--gold); }
+  nav a:hover{ color:var(--gold); }
+
+  .page-title{
+    background:var(--bg-soft);
+    border:1px solid var(--line);
+    border-radius:12px;
+    text-align:center;
+    padding:34px 20px;
+    margin-bottom:40px;
+  }
+  .page-title span{ display:block; color:var(--muted); font-size:.95rem; margin-bottom:8px; }
+  .page-title h1{ font-size:1.6rem; font-weight:800; }
+
+  .contact-grid{
+    display:grid;
+    gap:16px;
+  }
+  .contact-card{
+    background:var(--bg-soft);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:26px 24px;
+    display:flex;
+    align-items:center;
+    gap:18px;
+    transition:border-color .25s;
+  }
+  .contact-card:hover{ border-color:var(--gold); }
+  .contact-icon{
+    width:52px; height:52px; flex-shrink:0;
+    border-radius:50%;
+    background:rgba(201,161,59,.1);
+    border:1px solid var(--gold);
+    display:flex; align-items:center; justify-content:center;
+    color:var(--gold); font-size:1.2rem; font-weight:700;
+  }
+  .contact-info span{ display:block; color:var(--muted); font-size:.82rem; margin-bottom:4px; }
+  .contact-info b{ font-size:1.05rem; font-weight:600; }
+
+  .socials{
+    margin-top:40px;
+    text-align:center;
+  }
+  .socials p{ color:var(--muted); font-size:.9rem; margin-bottom:18px; }
+  .social-row{ display:flex; justify-content:center; gap:16px; }
+  .social-row a{
+    width:46px; height:46px; border:1px solid var(--line); border-radius:50%;
+    display:flex; align-items:center; justify-content:center; font-size:.85rem;
+    transition:all .25s;
+  }
+  .social-row a:hover{ border-color:var(--gold); color:var(--gold); }
+
+  .map-box{
+    margin-top:40px;
+    height:220px;
+    border-radius:10px;
+    border:1px solid var(--line);
+    background:repeating-linear-gradient(45deg, #1b1917, #1b1917 18px, #201d1a 18px, #201d1a 36px);
+    display:flex; align-items:center; justify-content:center;
+    color:var(--muted); font-size:.9rem;
+  }
+
+  @media (min-width:700px){
+    .contact-grid{ grid-template-columns:repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">جاوان<span>.</span></div>
+    <nav>
+      <a href="index.html">خانه</a>
+      <a href="works.html">نمونه کار</a>
+      <a href="contact.html" class="active">ارتباط با ما</a>
+    </nav>
+  </header>
+
+  <div class="page-title">
+    <span>در تماس باشید</span>
+    <h1>ارتباط با گروه هنری جاوان</h1>
+  </div>
+
+  <div class="contact-grid">
+    <a href="tel:+989383553774" class="contact-card">
+      <div class="contact-icon">☎</div>
+      <div class="contact-info">
+        <span>تماس تلفنی</span>
+        <b>09383553774</b> سرداریان
+        <b>09910842556</b> صالحی
+      </div>
+    </a>
+
+    <a href="mailto:info@jaavaan.ir" class="contact-card">
+      <div class="contact-icon">@</div>
+      <div class="contact-info">
+        <span>ایمیل</span>
+        <b>amirsalehipouya2002@gmail.com</b>
+      </div>
+    </a>
+
+    <a href="https://t.me/yourusername" target="_blank" class="contact-card">
+      <div class="contact-icon">TG</div>
+      <div class="contact-info">
+        <span>تلگرام</span>
+        <b>sdr_amir</b>
+      </div>
+    </a>
+
+    <div class="contact-card">
+      <div class="contact-icon">⌖</div>
+      <div class="contact-info">
+        <span>آدرس</span>
+        <b>مشهد، خیابان ملاصدرا، ملاصدرا27</b>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="socials">
+    <p>ما را در شبکه‌های اجتماعی دنبال کنید</p>
+    <div class="social-row">
+      <a href="https://t.me/sdr_amir" target="_blank"><img src="telegram-icon.png" alt="تلگرام" style="width:22px; height:22px; object-fit:contain;"></a>
+      <a href="https://instagram.com/yourusername" target="_blank"><img src="instagram-icon.png" alt="اینستاگرام" style="width:22px; height:22px; object-fit:contain;"></a>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
