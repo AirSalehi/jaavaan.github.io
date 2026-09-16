@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://airsalehi.github.io/jaavaan.github.io/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://airsalehi.github.io/jaavaan.github.io/works.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://airsalehi.github.io/jaavaan.github.io/contact.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://airsalehi.github.io/jaavaan.github.io/works-takhasos.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://airsalehi.github.io/jaavaan.github.io/works-seda.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://airsalehi.github.io/jaavaan.github.io/works-tasvir.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://airsalehi.github.io/jaavaan.github.io/works-lebas.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
